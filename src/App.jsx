@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import { Post } from './Posts'
 
 export function App() {  
-  return (
+  return ( 
     <>
       <Post/>
     </>
