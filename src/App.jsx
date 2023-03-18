@@ -4,9 +4,16 @@ import { Post } from './Posts'
 
 export function App() {  
   return ( 
-    <>
-      <Post/>
-    </>
+    <div>
+      <Post
+        author="Luís Lucilandio"
+        description="Analista e Desenvolvedor de Software"
+      />
+      <Post
+        autor="Autor Desconhecido"
+        description="Não segue as normas da ABNT"
+      />
+    </div>
   )
 }
 
